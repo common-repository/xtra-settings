@@ -1,0 +1,32 @@
+/* --- Vertical Tabs --- */
+/*
+@media screen and (min-width: 950px) {
+*/
+@media screen and (min-width: 560px) {
+	._xtra .vertical-tabs h2.nav-tab-wrapper {
+		float:left;
+		width:11%;
+		border:none;
+		padding:0;
+		margin-top:10px !important;
+		overflow-y: auto;
+	}
+	._xtra .vertical-tabs .xtra-tab-wrapper {
+		float:left;
+		width:89%;
+		border:none;
+		padding:0;
+		margin-top:0 !important;
+	}
+	._xtra .vertical-tabs .nav-tab {
+		float:none;
+		display:block;
+		border-right:none;
+		border-bottom: 1px solid #ccc !important;
+		margin-bottom: 10px;
+		overflow-x: hidden;
+	}
+	.xtra_left .nav-tab {
+		border-top-right-radius: 0px;
+	}
+}

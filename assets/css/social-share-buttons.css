@@ -1,0 +1,93 @@
+.xtra-social-share-wrap {
+	padding: 0 0 1em 0;
+	overflow: auto;
+}
+
+.xtra-social-share-wrap h3 {margin: 1em 0px 0.6em 0px;}
+
+.xtra-social-share-wrap div {
+	/*float: left;*/
+	display: inline-block;
+	margin-right: 0.4em;
+	margin-bottom: 0.4em;
+	text-align: center;
+	min-width: 1.15em;
+	line-height: 1.15em;
+	box-sizing: content-box;
+}
+
+.xtra-social-share-wrap div.share-on {
+	padding: 5px 5px 5px 0px;
+	font-weight: bold;
+}
+
+.xtra-social-share-wrap div.facebook {
+	background-color: #3a5795;
+	padding: 5px;
+	border-radius: 5px;
+}
+.xtra-social-share-wrap div.facebook span { color: white; }
+
+.xtra-social-share-wrap div.twitter {
+	background-color: #55acee;
+	padding: 5px;
+	border-radius: 5px;
+}
+.xtra-social-share-wrap div.twitter span { color: white; }
+
+.xtra-social-share-wrap div.linkedin {
+	background-color: #007bb6;
+	padding: 5px;
+	border-radius: 5px;
+}
+.xtra-social-share-wrap div.linkedin span { color: white; }
+
+.xtra-social-share-wrap div.gplus {
+	background-color: #DC4D40;
+	padding: 5px;
+	border-radius: 5px;
+}
+.xtra-social-share-wrap div.gplus span { color: white; }
+
+.xtra-social-share-wrap div.pinterest {
+	background-color: #CB2027;
+	padding: 5px;
+	border-radius: 5px;
+}
+.xtra-social-share-wrap div.pinterest span { color: white; }
+
+.xtra-social-share-wrap div.tumblr {
+	background-color: #2A445F;
+	padding: 5px;
+	border-radius: 5px;
+}
+.xtra-social-share-wrap div.tumblr span { color: white; }
+
+.xtra-social-share-wrap div.reddit {
+	background-color: #ACD4FC;
+	padding: 5px;
+	border-radius: 5px;
+}
+.xtra-social-share-wrap div.reddit span { color: white; }
+
+.xtra-social-share-wrap div.buffer {
+	background-color: #222222;
+	padding: 5px;
+	border-radius: 5px;
+}
+.xtra-social-share-wrap div.buffer span { color: white; }
+
+.xtra-social-share-wrap a, .xtra-social-share-wrap i {
+	text-decoration: none;
+	font-size: 16px !important;
+}
+
+.xtra-social-share-wrap div a {
+	text-decoration: none;
+	border: none;
+}
+
+.xtra-social-share-wrap .clear {
+	clear: left;
+	float: none !important;
+}

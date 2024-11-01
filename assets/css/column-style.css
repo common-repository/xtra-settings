@@ -1,0 +1,67 @@
+/* 
+ ------- Fluid Columns ------- 
+ Usage: 
+ [one_third]...[/one_third] 
+ [one_third]...[/one_third] 
+ [one_third_last]...[/one_third_last]
+ 
+ or
+ [two_fifth]...[/two_fifth] 
+ [one_fifth]...[/one_fifth] 
+ [two_fifth_last]...[/two_fifth_last]
+ 
+ etc.
+*/
+
+.xtra_col_one_half		{width:48%;}
+.xtra_col_one_third		{width:30.66%;}
+.xtra_col_two_third		{width:65.33%;}
+.xtra_col_one_fourth	{width:22%;}
+.xtra_col_three_fourth	{width:74%;}
+.xtra_col_one_fifth		{width:16.8%;}
+.xtra_col_two_fifth		{width:37.6%;}
+.xtra_col_three_fifth	{width:58.4%;}
+.xtra_col_four_fifth	{width:67.2%;}
+.xtra_col_one_sixth		{width:13.33%;}
+.xtra_col_five_sixth	{width:82.67%;}
+
+.xtra_col_last			{margin-right:0 !important;clear:right;}
+.xtra_col_clearboth 		{clear:both;display:block;font-size:0;height:0;line-height:0;width:100%;}
+
+.xtra_col_one_half, .xtra_col_one_third, .xtra_col_two_third, .xtra_col_three_fourth, .xtra_col_one_fourth, .xtra_col_one_fifth, .xtra_col_two_fifth,
+.xtra_col_three_fifth, .xtra_col_four_fifth, .xtra_col_one_sixth, .xtra_col_five_sixth {
+	position:relative;
+	margin-right:4%;
+	float:left;
+}
+
+
+/* ------- Added for Right to Left language support ------- */
+.rtl .xtra_col_one_half, .rtl .xtra_col_one_third, .rtl .xtra_col_two_third, .rtl .xtra_col_three_fourth, .rtl .xtra_col_one_fourth,
+.rtl .xtra_col_one_fifth, .rtl .xtra_col_two_fifth, .rtl .xtra_col_three_fifth, .rtl .xtra_col_four_fifth, .rtl .xtra_col_one_sixth, .rtl .xtra_col_five_sixth {
+	float: right;
+	margin-right: inherit;
+	margin-left: 4%;
+}
+
+.rtl .xtra_col_last {
+	clear: left;
+	margin-left: 0 !important;
+	margin-right: inherit;
+}
+
+
+/* =Responsive
+-------------------------------------------------------------- */
+/* Maximum width of 600 pixels. */
+@media screen and (max-width: 600px) {
+.xtra_col_one_half, .xtra_col_one_third, .xtra_col_two_third, .xtra_col_three_fourth, .xtra_col_one_fourth, .xtra_col_one_fifth, .xtra_col_two_fifth,
+.xtra_col_three_fifth, .xtra_col_four_fifth, .xtra_col_one_sixth, .xtra_col_five_sixth {
+		clear: both;
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+		margin-bottom: 1em;
+	}
+}
+
